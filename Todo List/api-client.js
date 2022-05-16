@@ -94,34 +94,3 @@ const dataTodo = async idNumber => {
         }
     }
     
-
-      /*
-const deleteTodo = async (idNumber) => {
-    try {
-        let deleteTask = await fetch(apiUrl + idNumber, {
-            method: 'DELETE',
-            headers: {
-                "Content-Type": "application/json",
-            },
-        });
-        let response = await deleteTask.json();
-        return response;
-    } catch (err) {
-        console.log(err);
-    }
-}
-const deleteAll = async () => {
-    try {
-        await fetch(apiUrl, {
-            method: 'DELETE',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-            }
-        })
-        console.log("all Tasks Deleted");
-    } catch (err) {
-        console.log(err);
-    }
-}
-*/
