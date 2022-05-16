@@ -1,0 +1,102 @@
+body {
+    background-color: aqua;
+    font-family: 'Lato';
+    font-size: 16px;
+}
+
+h1 {
+  padding: 10px;
+  text-align: center;
+  font-weight: 700;
+  border-bottom: 1px solid aqua;
+  margin-bottom: 30px;
+}
+
+.container {
+  width: 750px;
+  min-height: 800px;
+  margin: 0 auto;
+  border: 1px solid rgb(211, 211, 211);;
+  border-radius: 5px;
+  background-color: #fafeff;
+}
+ 
+input {
+height: 20px;
+width: 74%;
+border-radius: 50px;
+border: 2px solid #ccc;
+box-sizing: border-box;
+background-color: rgb(253, 252, 252);
+margin-left: 40px;
+margin-top: 20px;
+padding: 10px;
+font-size: 16px;
+outline: none;
+}
+
+button {
+cursor: pointer;
+outline: none;
+}
+button:hover {
+  color: white;
+}
+
+#btn-add-task {
+background-color: rgb(228, 228, 228);
+font-family: 'Lato';
+font-size: 18px;
+border-radius: 4px;
+width: 14%;
+height: 35px;
+margin-left: 10px;
+
+}
+#btn-add-task:hover {
+  background: #138496;
+}
+
+ul {
+list-style: none;
+}
+
+li {
+width: 75%;
+height: 50px;
+border: 1px solid #138496;
+padding: 10px;
+margin-bottom: 5px;
+border-radius: 4px;
+background-color: #17a2b8;
+color: #fff;
+}
+
+.fa-trash-can {
+  color: red;
+  padding: 50px;
+}
+
+
+#input-description {
+  border: rgb(38, 132, 147) dotted;
+  padding: 20px;
+}
+.checkBox {
+  margin: -150px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.cek {
+  text-decoration: line-through;
+}
+.fa-trash-can {
+  color: rgb(27, 62, 96);
+}
+.fa-solid {
+  color: red;
+}
+.mark-done {
+  text-decoration: line-through;
+  color: black;
+}
